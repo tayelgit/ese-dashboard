@@ -1,0 +1,27 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div class="jumbotron text-center">
+  <h1>Ese Smarthome Dashboard</h1>
+  <p>Such a nice Dashboard!!</p>
+</div>
+
+<div class="container">
+  <div class="row">
+
+    <div *ngFor="let data of dataArray " class="col-md-4">
+      <div class="card mb-4">
+        <div class="card-body text-center">
+          <h5>{{data.name}}</h5>
+          <p class="card-text">{{data.payload}} {{data.unit}}</p>
+        </div>
+      </div>
+    </div>
+
+
+
+  </div>
+</div>
+
+
+
+
+
